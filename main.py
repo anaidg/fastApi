@@ -9,14 +9,14 @@ class ItemList(BaseModel):
     data_model: List[float]
 
 # Model
-loaded_model = pickle.load(open('./Model.pkl', 'rb'))
+loaded_model = pickle.load(open('./models/Model.pkl', 'rb'))
 
 # inicializar app
 app = FastAPI()
 
 @app.get('/')
 async def index():
-    return {"result": "andres"}
+    return {"result": "prueba"}
 
 @app.get('/items/{variables}')
 async def get_item(variables):
