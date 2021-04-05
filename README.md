@@ -11,11 +11,11 @@ para probar el metodo post/predict  ingresar un vector ejemplo
 #
 {
   "data_model": [1,1,1,1]
-}#
+}
 
 para probar el metodo post/predict/ME modelo el cual es un problema de clasificación que indica si una oración tiene las palabras Nueva York o London, usar una lista de palabras por ejemplo
 
 #
 {
   "lista": ["new york is great and so is london","i like london better than new york" ]
-}#
+}
